@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="shortcut icon" href="/static/images/icon/favicon.png" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>陶大科院圈</title>
+
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel="stylesheet" href="/static/css/style.css" />
+	<link rel='stylesheet' id='style-css'  href='/static/css/css4/style.css' type='text/css' media='all' />
+	<link rel='stylesheet' id='lmlblog-css'  href='/static/css/css4/lmlblog.css' type='text/css' media='all' />
+	<link rel='stylesheet' id='lmlblog-css'  href='/static/css/css4/all.css' type='text/css' media='all' />
+	<script type='text/javascript' src='/static/js/js4/jquery.min.js'></script>
+	<script type='text/javascript' src='/static/js/js4/ueditor.all.min.js'></script>
+	<link rel="stylesheet" type="text/css" href="/static/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="/static/css/animate.css">
+	<link rel="stylesheet" type="text/css" href="/static/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/static/js/js2/plugins/queryCity/css/cityLayout.css">
+	<link rel="stylesheet" href="/static/css/font-awesome.css" />
+    <link rel="stylesheet" type="text/css" href="/static/css/lq.datetimepick.css"/>
+
+
+
+    <script src="/static/js/js2/jquery.min.js" type="text/javascript"></script>
+    <script src="/static/js/js2/jquery-migrate-1.2.1.min.js" type="text/javascript"></script>
+
+</head>
+<body>
+<!-- 菜单 -->
+<section class="headerwrap headerwrap2">
+    <header>
+		<div  class="header2 header">
+ 			<div class="top">
+
+				<div class="wp">
+					<div class="fl"><p>联系电话：<b>316040300115</b></p></div>
+					<!--登录后跳转-->
+
+
+{#                        <a style="color:white" class="fr registerbtn" href="register.html">注册</a>#}
+
+
+						{% if user.is_authenticated %}
+						<div class="personal">
+                            <dl class="user fr">
+                                <dd style="line-height: 30px;">{{ user.nick_name }}<img class="down fr" src="/static/images/top_down.png"/></dd>
+                                <dt><img width="20" height="20" src="/static/images/default_big_13.png"/></dt>
+                            </dl>
+                            <div class="userdetail">
+                            	<dl>
+	                                <dt><img width="80" height="80" src="/static/images/default_big_13.png"/></dt>
+	                                <dd>
+	                                    <h2>{{ user.nick_name }}</h2>
+	                                    <p>{{ user.username }}</p>
+	                                </dd>
+                                </dl>
+                                <div class="btn">
+	                                <a class="personcenter fl" href={% url 'usercenter-info' %}>进入个人中心</a>
+	                                <a class="fr" href="{% url 'logout' %}">退出</a>
+                                </div>
+                            </div>
+                        </div>
+                            {% else %}
+                            <a style="color:white" class="fr loginbtn" href="register.html">注册</a>
+                            <a style="color:white" class="fr loginbtn" href="login.html">登录</a>
+
+                    {% endif %}
+
+
+				</div>
+			</div>
+
+
+			</div>
+     <div class="middle">
+                <div class="wp" >
+                    <a href="index.html"><img class="fl" src="/static/images/logo.png"/></a>
+
+                </div>
+            </div>
+
+    </header>
+</section>
+</div>
+</div><!-- menu-bar -->
+<!--<div style="clear: both;"></div><div class="lmlblog-member-main" data="1">-->
+<div class="content">
+<div class="lmlblog-member-bg">
+<div class="lmlblog-member-content">
+<div class="lmlblog-member-header">
+<div class="lmlblog-member-avatar other">
+<img src="/media/{{user_home.image}}" class="avatar"/>
+<i class="lmlblog-verify lmlblog-verify-a" title=""></i></div>
+<div class="lmlblog-member-username">
+<p style="font-size: larger;">{{ user_home.nick_name }}</p>
+<span class="lmlblog-mark "></span>
+<span class="lmlblog-mark" title=""></span>
+<span class="lmlblog-mark"></span></div>
+<div class="lmlblog-member-desc">{{ user_home.idiograph}}</div>
+<div class="lmlblog-member-follow-info">
+
+</div>
+</div>
+<div class="lmlblog-member-menu clear">
+<li class="{% if sort == ""  %}on{% endif %}"><a href="?sort=">排序方式</a></li>
+<li class="{% if sort == "click_nums"  %}on{% endif %}"><a href="?sort=click_nums">最多人看</a></li>
+<li class="{% if sort == "create_date"  %}on{% endif %}"><a href="?sort=create_date">最新发布</a></li>
+<li class="{% if sort == "comment_nums"  %}on{% endif %}"><a href="?sort=comment_nums">最多评论</a></li>
+
+</div>
+<div class="lmlblog-member-content-list clear">
+<div class="lmlblog-member-left">
+<div class="lmlblog-member-left-follow clear">
+
+
+<div class="test123">
+
+</div>
+</div>
+
+<div class="lmlblog-member-left-profile">
+<h3>资料简介</h3>
+
+<li><i class="fa fa-user"></i> 昵称：<span>{{ user_home.nick_name }}<span></li>
+<li><i class="fa fa-transgender"></i> 性别：<span>男生<span></li>
+<li><i class="fa fa-map-marker"></i> 城市：<span>{{ user_home.city }}<span></li>
+<li><i class="fa fa-smile-o"></i> 个人签名：<span>{{ user_home.idiograph }}<span></li>
+
+<div class="lmlblog-member-left-profile-more">
+</div>
+</div>
+
+
+<div class="lmlblog-member-left-bg-xg clear">
+<h3>最热话题</h3>
+</div>
+</div>
+
+{% if all_articles %}
+
+
+ {% for articles in all_articles %}
+
+<div class="lmlblog-member-right">
+
+
+<div class="lmlblog-post-list">
+<div  class="lmlblog-posts-list words" style="background-image:url(/static/images/add_article_img/058.png); " data="4197">
+
+<!-- 动态内容部分，包括列表 -->
+
+<div class="lmlblog-post-user-info">
+<div class="lmlblog-post-user-info-avatar" user-data="1">
+<a href="#1" style="display: inline-block;">
+<span class="lmlblog-vip-icon"></span><img src="/media/{{articles.author.image }}" class="avatar"/>
+<i class="lmlblog-verify lmlblog-verify-a" ></i></a>
+<div class="lmlblog-user-info-card">
+</div>
+</div>
+
+<div class="lmlblog-post-user-info-name">
+<a href=>
+<font style="color:#333;font-weight:600">{{articles.author.nick_name }}</font>
+</a>
+
+</div>
+<div class="lmlblog-post-user-info-time" title="2017-12-14 05:25">{{ articles.publish_data }}</div>
+</div><!-- 作者信息 -->
+<div class="lmlblog-post-setting">
+<i class="fa fa-angle-down"></i>
+<div  class="lmlblog-post-setting-box">
+<ul>
+<a href="#" title="删除"><li>删除</li></a>
+
+</ul>
+</div>
+</div>
+<div class="lmlblog-post-content ">
+<a class="post_list_link" href="#">
+    {{ articles.content |safe }}
+</a>
+</div>
+
+<div class="lmlblog-post-bar">
+<li class="lmlblog-no-like" onclick='lmlblog_like_posts(4197,this,"post");'>
+<i class="fa fa-thumbs-o-up">点赞</i> {{ articles.user_like_nums }}<span></span>
+</li>
+
+<li onclick='lmlblog_pop_login_style();'>
+    <i class="fa fa-comment" ></i><a href= {% url 'comment_list' articles.id %}>评论</a> <span>{{ articles.commment_nums }}</span>
+</li>
+<li>
+<i class="fa fa-eye">浏览量</i> <span>{{ articles.click_nums }}</span>
+</li>
+
+</div>
+
+<div class="lmlblog-post-footer-bar">
+<span title="2017-12-14 05:25:48">12月14日 05:25</span>
+<span>电脑端</span><i class="lmlblog-icon" onclick="lmlblog_post_type_open();">&#xe62c;</i></div>
+
+{% endfor %}
+
+{% else %}
+
+<div class="lmlblog-member-right">
+
+
+<div class="lmlblog-post-list">
+<div  class="lmlblog-posts-list words" style="background-image:url(/static/images/add_article_img/058.png); " data="4197">
+
+<!-- 动态内容部分，包括列表 -->
+
+<div class="lmlblog-post-user-info">
+
+
+<div class="lmlblog-post-user-info-name">
+<a href=>
+<font style="color:#333;font-weight:600"></font>
+</a>
+
+</div>
+<div class="lmlblog-post-user-info-time" title=""></div>
+</div><!-- 作者信息 -->
+<div class="lmlblog-post-setting">
+<i class="fa fa-angle-down"></i>
+<div  class="lmlblog-post-setting-box">
+<ul>
+<a href="#" title="删除"><li>删除</li></a>
+
+</ul>
+</div>
+</div>
+<div class="lmlblog-post-content ">
+<a class="post_list_link" href="#">
+他暂时还没有发布话题哦～
+</a>
+</div>
+<div class="lmlblog-post-images-list clear">
+<a  data-fancybox="gallery" data-caption='<i class="fa fa-copyright"></i> lmlblog'>
+
+
+
+</div>
+<div class="lmlblog-post-bar">
+<li class="lmlblog-no-like" onclick='lmlblog_like_posts(4197,this,"post");'>
+<i class="fa fa-thumbs-o-up">点赞</i> <span>0</span>
+</li>
+
+<li onclick='lmlblog_pop_login_style();'>
+    <i class="fa fa-comment" ></i><a >评论</a> <span>0</span>
+</li>
+<li>
+<i class="fa fa-eye">浏览量</i> <span>0</span>
+</li>
+
+</div>
+
+<div class="lmlblog-post-footer-bar">
+<span title=""></span>
+<span>电脑端</span><i class="" onclick="lmlblog_post_type_open();"></i></div>
+{% endif %}
+</div>
+<div class="lmlblog-pager"><a class="lmlblog-pager-left" href="#2">上一页</a>
+<div class="lmlblog-pager-center layui-form">
+<select>
+<option  value="#=1">第 1 页</option>
+<option  value="#=2">第 2 页</option>
+<option selected="selected" value="#3">第 3 页</option>
+</select>第 1 页</div>
+<a class="lmlblog-pager-right" href="#3">下一页</a></div>
+</div>
+<!--</div>-->
+<!-- 底部 -->
+<div style="clear:both"></div>
+<div class="footer">
+<div class="footer_b_foot">
+<div class="footer_b_top">
+</div>
+<div class="footer_b_bottom"> <p>Copyright&copy;2019<a href="#" target="_blank" title="陶大科院圈">陶大科院圈</a> <a href="#" title="" target="_blank"></a></p></div>
+  </div>
+</div>
+<!-- 返回顶部 -->
+<a href="javascript:returnTop();" class="cd-top"></a>
+<script type="text/javascript">
+var sdelay=0;
+function returnTop() {
+ window.scrollBy(0,-100);//Only for y vertical-axis
+ if(document.body.scrollTop>0) {
+  sdelay= setTimeout('returnTop()',50);
+ }
+}
+</script>
+</body>
+<script src="/static/js/js2/selectUi.js" type='text/javascript'></script>
+<script type="text/javascript" src="/static/js/js2/plugins/laydate/laydate.js"></script>
+<script src="/static/js/js2/plugins/layer/layer.js"></script>
+<script src="/static/js/js2/plugins/queryCity/js/public.js" type="text/javascript"></script>
+<script src="/static/js/js2/unslider.js" type="text/javascript"></script>
+<script src="/static/js/js2/plugins/jquery.scrollLoading.js"  type="text/javascript"></script>
+<script src="/static/js/js2/validateDialog.js"  type="text/javascript"></script>
+<script src="/static/js/js2/deco-common.js"  type="text/javascript"></script>
+
+<script src='/static/js/js2/plugins/jquery.upload.js' type='text/javascript'></script>
+<script src="/static/js/js2/validate.js" type="text/javascript"></script>
+<script type='text/javascript' src='/static/js/js4/base.js'></script>
+<script type='text/javascript' src='/static/js/js4/all.js'></script>
+<script type='text/javascript' src='/static/js/js4/plupload.full.min.js'></script>
+<script type='text/javascript' src='/static/js/js4/layui.js'></script>
+<script>
+jQuery(document).ready(function($){
+$.fn.smartFloat = function() {
+var position = function(element) {
+var top = element.position().top, pos = element.css("position");
+$(window).scroll(function() {
+var scrolls = $(this).scrollTop();
+if (scrolls > top) {
+if (window.XMLHttpRequest) {
+element.css({
+position: "fixed",
+top: 0
+});
+} else {
+element.css({
+top: scrolls
+});
+}
+}else {
+element.css({
+position: "absolute",
+top: top
+});
+}
+});
+};
+return $(this).each(function() {
+position($(this));
+});
+};
+$(".lmlblog-member-left-bg-xg").smartFloat();
+});
+</script>
+
+
+</html>

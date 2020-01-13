@@ -1,0 +1,245 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes" />     
+<meta name="apple-mobile-web-app-capable" content="yes" />    
+<meta name="format-detection" content="telephone=no" />    
+<title>陶大科院圈</title>
+
+<link rel="stylesheet" href="/static/css/css2/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="/static/css/css2/style.css">
+<link rel="stylesheet" type="text/css" href="/static/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="/static/css/animate.css">
+	<link rel="stylesheet" type="text/css" href="/static/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/static/js/js2/plugins/queryCity/css/cityLayout.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/lq.datetimepick.css"/>
+      <script src="/static/js/js2/jquery.min.js" type="text/javascript"></script>
+    	<link rel="stylesheet" href="/static/css/font-awesome.css" />
+
+    <script src="/static/js/js2/jquery-migrate-1.2.1.min.js" type="text/javascript"></script>
+{#    <script type="text/javascript">#}
+{#    var ue = UE.getEditor('content');#}
+{#    </script>#}
+
+</head>
+<body>
+<section class="headerwrap headerwrap2">
+    <header>
+		<div  class="header2 header">
+ 			<div class="top">
+				<div class="wp">
+					<div class="fl"><p>联系电话：<b>316040300115</b></p></div>
+					<!--登录后跳转-->
+
+
+                        <div class="personal">
+                            <dl class="user fr">
+                                <dd style="line-height: 30px">{{ user.nick_name }}<img class="down fr" src="/static/images/top_down.png"/></dd>
+                                <dt><img width="20" height="20" src="/media/{{ user.image}}"/></dt>
+                            </dl>
+                            <div class="userdetail">
+                            	<dl>
+	                                <dt><img width="80" height="80" src="/media/{{ user.image}}"/></dt>
+	                                <dd>
+	                                    <h2>{{ user.nick_name }}</h2>
+	                                    <p>{{ user.username }}</p>
+	                                </dd>
+                                </dl>
+                                <div class="btn">
+	                                <a class="personcenter fl" href="usercenter-info.html">进入个人中心</a>
+	                                <a class="fr" href="/logout/">退出</a>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="usercenter-message.html">
+                            <div class="msg-num"><span id="MsgNum">0</span></div>
+                        </a>
+
+				</div>
+			</div>
+{% block category_name %}
+    <div class="middle">
+        <div class="wp">
+            <a href="index.html"><img class="fl" src="/static/images/logo.png"/></a>
+            <h1>{{ articles_category.name}}</h1>
+        </div>
+    </div>
+ {% endblock %}
+			</div>
+    </header>
+</section>
+ <ul  class="crumbs" style="font-size: large" >
+                <li><a href={% url "article_list" articles_category.id %}>返回</a>></li>
+            </ul>
+<div class="container container_bg" >
+	<div class="row">
+		<div class="col-sm-2"></div>
+		<div class="col-sm-6 col-xs-12 my_edit" >
+
+
+<section>
+
+<div class="lmlblog-member-center">
+
+
+<div class="lmlblog-post-list">
+<div  class="lmlblog-posts-list words" style="background-image:url(/static/images/add_article_img/058.png); " data="4197">
+
+<!-- 动态内容部分，包括列表 -->
+
+			<div class="row" id="edit_form" >
+				<span class="pull-left" style="margin:15px;">话题:
+                <div contentEditable="true" id="title" class="form-control " ></div>
+                </span>
+
+
+				<span class="tips pull-right" style="margin:15px;"></span>
+						   <div class="col-sm-12">
+								<div contentEditable="true" id="content" class="form-control " ></div>
+							</div>
+							<div class="col-sm-12" style="margin-top: 12px;">
+								<button type="button" id="send" class="btn btn-default pull-right disabled">发布</button>
+
+                            </div>
+
+		</div>
+	</div>
+</div>
+
+
+
+
+<script src="/static/js/js3/jquery-3.1.0.js"></script>
+<script src="/static/js/js3/bootstrap.min.js"></script>
+<script src="/static/js/js2/selectUi.js" type='text/javascript'></script>
+<script type="text/javascript" src="/static/js/js2/plugins/laydate/laydate.js"></script>
+<script src="/static/js/js2/plugins/layer/layer.js"></script>
+<script src="/static/js/js2/plugins/queryCity/js/public.js" type="text/javascript"></script>
+<script src="/static/js/js2/unslider.js" type="text/javascript"></script>
+<script src="/static/js/js2/plugins/jquery.scrollLoading.js" type="text/javascript"></script>
+<script src="/static/js/js2/validateDialog.js" type="text/javascript"></script>
+<script src="/static/js/js2/deco-common.js" type="text/javascript"></script>
+
+<script src='/static/js/js2/plugins/jquery.upload.js' type='text/javascript'></script>
+<script src="/static/js/js2/validate.js" type="text/javascript"></script>
+<script src="/static/js/js2/deco-user.js"></script>
+<script type="text/javascript">
+    {% block ajax %}
+	$(function(){
+		 $("#content").keyup(function(){
+			//判断输入的字符串长度
+			var content_len = $("#content").text().replace(/\s/g,"").length;
+			$(".tips").text("已经输入"+content_len+"个字");
+			if(content_len==0){
+				// alert(content);
+				$(".tips").text("");
+				$("#send").addClass("disabled");
+				return false;
+			}else{
+				$("#send").removeClass("disabled");
+			}
+		 });
+			$(".pic").click(function(){
+				$(".select_Img").click();
+			})
+		// 	function confirm(){
+		// 		var r= new FileReader();
+					// f=$(".select_Img").files[0];
+					// r.readAsDataURL(f);
+					// r.onload=function(e) {
+					// 	$(".preview").src=this.result;
+					// };
+		// 	}
+		//点击按钮发送内容
+		 $("#send").click(function(){
+			// var myDate = new Date();
+		  //   var min = myDate.getMinutes();
+		  //   var time = min-(min-1);
+		  //   //alert(time);
+
+                  var title =  $("#title").text();
+             	  var content = $("#content").text();
+            $.ajax({
+                cache: false,
+                type: "POST",
+                url: "{% url 'add_article' articles_category.id %}",
+                data: { category: {{ articles_category.id}}, content : content, title :title},
+                async: true,
+                beforeSend: function (xhr, settings) {
+                    xhr.setRequestHeader("X-CSRFToken", "{{ csrf_token }}");
+                },
+                success: function (data) {
+                    if (data.status == 'fail') {
+                        if (data.msg == '用户未登录') {
+                            window.location.href = "{% url 'login' %}";
+                        } else {
+                            alert(data.msg)
+                        }
+
+                    } else if (data.status == 'success') {
+                        window.location.href = "{% url 'article_list' articles_category.id %}"//刷新当前页面.
+                    }
+                },
+            });
+
+			var content=$("#content").html();
+			//判断选择的是否是图片格式
+			var imgPath = $(".imgPath").text();
+			var start  = imgPath.lastIndexOf(".");
+			var postfix = imgPath.substring(start,imgPath.length).toUpperCase();
+			if(imgPath!=""){
+				if(postfix!=".PNG"&&postfix!=".JPG"&&postfix!=".GIF"&&postfix!=".JPEG"){
+						alert("图片格式需为png,gif,jpeg,jpg格式");
+				}else{
+					{#$(".item_msg").append("<div class='col-sm-12 col-xs-12 message' > <img src='/static/images/Article_img/icon.png' class='col-sm-2 col-xs-2' style='border-radius: 50%'><div class='col-sm-10 col-xs-10'><span style='font-weight: bold;''>Jack.C</span> <br><small class='date' style='color:#999'>刚刚</small><div class='msg_content'>"+content+"<img class='mypic' onerror='this.src='/static/images/Article_img/bg_1.jpg' src='file:///"+imgPath+"' ></div></div></div>");#}
+				}
+			}else{
+				 {#$(".item_msg").append("<div class='col-sm-12 col-xs-12 message' > <img src='/static/images/Article_img/icon.png' class='col-sm-2 col-xs-2' style='border-radius: 50%'><div class='col-sm-10 col-xs-10'><span style='font-weight: bold;''>Jack.C</span> <br><small class='date' style='color:#999'>刚刚</small><div class='msg_content'>"+content+"</div></div></div>");#}
+			}
+		 });
+		  //添加表情包1
+		  for (var i = 1; i < 60; i++) {
+				$(".emoji_1").append("<img src='/static/images/Article_img/f"+i+".png' style='width:35px;height:35px' >");
+			}
+			//添加表情包2
+			for (var i = 1; i < 61; i++) {
+				$(".emoji_2").append("<img src='/static/images/Article_img/h"+i+".png' style='width:35px;height:35px' >");
+			}
+		 $(".emoji").click(function(){
+			$(".myEmoji").show();
+			//点击空白处隐藏弹出层
+			$(document).click(function (e) {
+				if (!$("#edit_form").is(e.target) && $("#edit_form").has(e.target).length === 0) {
+					$(".myEmoji").hide();
+				}
+			});
+		 });
+		 //将表情添加到输入框
+		   $(".myEmoji img").each(function(){
+				$(this).click(function(){
+					var url = $(this)[0].src;
+					$('#content').append("<img src='"+url+"' style='width:25px;height:25px' >");
+					$("#send").removeClass("disabled");
+				})
+		   })
+			//放大或缩小预览图片
+			$(".mypic").click(function(){
+				var oWidth=$(this).width(); //取得图片的实际宽度
+				var oHeight=$(this).height(); //取得图片的实际高度
+				if($(this).height()!=200){
+					$(this).height(200);
+				}else{
+					$(this).height(oHeight + 200/oWidth*oHeight);
+				}
+
+			})
+
+	})
+
+    {% endblock %}
+</script>
+<div style="text-align:center;margin:50px 0; font:normal 14px/24px 'MicroSoft YaHei';">
+</div>
+</body>
+</html>

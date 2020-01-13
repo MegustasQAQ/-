@@ -1,0 +1,1006 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e6fb6b96-ff69-41fb-8f49-1e22dcf9774a" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" module-name="Tdkyq" is-module-sdk="true">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+    <option name="myUseModuleSdk" value="true" />
+    <option name="myModuleName" value="Tdkyq" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/message_form/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1276">
+              <caret line="144" column="25" selection-start-line="144" selection-start-column="25" selection-end-line="144" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#44#0" expanded="true" />
+                <element signature="e#1071#1714#0" />
+                <element signature="e#1750#3198#0" />
+                <element signature="e#3234#4101#0" />
+                <element signature="e#4135#4355#0" />
+                <element signature="e#4392#5017#0" />
+                <element signature="e#5049#6106#0" />
+                <element signature="e#6136#6254#0" />
+                <element signature="e#6283#7557#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Tdkyq/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="232">
+              <caret line="77" selection-start-line="77" selection-end-line="77" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/message_form/login_simulation.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2581">
+              <caret line="97" selection-start-line="97" selection-end-line="97" />
+              <folding>
+                <element signature="e#44#59#0" expanded="true" />
+                <element signature="e#286#955#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/message_form/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="638">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/add_article.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2813">
+              <caret line="97" column="50" selection-start-line="97" selection-start-column="50" selection-end-line="97" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/Comment.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3306">
+              <caret line="114" column="35" selection-start-line="114" selection-start-column="35" selection-end-line="114" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/message_form/adminx.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="406">
+              <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>clearfix</find>
+      <find>comment</find>
+      <find>js-pl-submit</find>
+      <find>btn-default pull-righ</find>
+      <find>.btn</find>
+      <find>btn</find>
+      <find>send</find>
+      <find>form</find>
+      <find>header2</find>
+      <find>js/js</find>
+      <find>../../</find>
+      <find>lmlblog-member-right</find>
+      <find>.wp</find>
+      <find>wp</find>
+      <find>10.</find>
+      <find>mark</find>
+      <find>/ueditor</find>
+      <find>&quot;imageUrlPrefix&quot;</find>
+      <find>mark_safe</find>
+      <find>content</find>
+      <find>test</find>
+      <find>js-img-up</find>
+      <find>user</find>
+      <find>../</find>
+      <find>jsEditUserBtn</find>
+      <find>jsAvatarBtn</find>
+      <find>upload</find>
+      <find>type</find>
+      <find>application/</find>
+      <find>jsSearchBtn</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>/static/css/</replace>
+      <replace>/static/js/</replace>
+      <replace>/static/images</replace>
+      <replace>/static/images/</replace>
+      <replace>article</replace>
+      <replace>/static/js/js</replace>
+      <replace>/static/</replace>
+      <replace>/static/ueditor</replace>
+      <replace>/static</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/templates/Article.html" />
+        <option value="$PROJECT_DIR$/templates/login.html" />
+        <option value="$PROJECT_DIR$/templates/AddArticle.html" />
+        <option value="$PROJECT_DIR$/static/css/reset.css" />
+        <option value="$PROJECT_DIR$/static/js/js3/jquery-3.1.0.js" />
+        <option value="$PROJECT_DIR$/templates/Category.html" />
+        <option value="$PROJECT_DIR$/templates/base.html" />
+        <option value="$PROJECT_DIR$/static/js/js4/ml.js" />
+        <option value="$PROJECT_DIR$/static/css/css4/all.css" />
+        <option value="$PROJECT_DIR$/apps/message_form/forms.py" />
+        <option value="$PROJECT_DIR$/templates/Add_articles.html" />
+        <option value="$PROJECT_DIR$/static/css/style.css" />
+        <option value="$PROJECT_DIR$/DjangoUeditor/templates/Article_list.html" />
+        <option value="$PROJECT_DIR$/media/ueditor/php/config.json" />
+        <option value="$PROJECT_DIR$/static/ueditor/index.html" />
+        <option value="$PROJECT_DIR$/DjangoUeditor/安装和配置" />
+        <option value="$PROJECT_DIR$/media/ueditor/php/controller.php" />
+        <option value="$PROJECT_DIR$/DjangoUeditor/urls.py" />
+        <option value="$USER_HOME$/.virtualenvs/Lyux/lib/python3.7/site-packages/DjangoUeditor/models.py" />
+        <option value="$USER_HOME$/.virtualenvs/Lyux/lib/python3.7/site-packages/DjangoUeditor/widgets.py" />
+        <option value="$PROJECT_DIR$/xadmin/plugins/__init__.py" />
+        <option value="$PROJECT_DIR$/DjangoUeditor/static/ueditor/php/controller.php" />
+        <option value="$PROJECT_DIR$/DjangoUeditor/static/ueditor/php/config.json" />
+        <option value="$PROJECT_DIR$/static/css/css2/style.css" />
+        <option value="$PROJECT_DIR$/static/css/css4/lmlblog.css" />
+        <option value="$PROJECT_DIR$/templates/user_article.html" />
+        <option value="$PROJECT_DIR$/xadmin/views/form.py" />
+        <option value="$PROJECT_DIR$/apps/message_form/admin.py" />
+        <option value="$PROJECT_DIR$/templates/register.html" />
+        <option value="$PROJECT_DIR$/static/js/js2/deco-user.js" />
+        <option value="$PROJECT_DIR$/apps/users/models.py" />
+        <option value="$PROJECT_DIR$/DjangoUeditor/settings.py" />
+        <option value="$PROJECT_DIR$/static/plugins/ckeditor/plugins/image/dialogs/image.js" />
+        <option value="$PROJECT_DIR$/static/plugins/ckeditor/config.js" />
+        <option value="$PROJECT_DIR$/Tdkyq/settings.py" />
+        <option value="$PROJECT_DIR$/DjangoUeditor/static/ueditor/ueditor.all.min.js" />
+        <option value="$PROJECT_DIR$/DjangoUeditor/forms.py" />
+        <option value="$PROJECT_DIR$/templates/add_article.html" />
+        <option value="$PROJECT_DIR$/static/js/js2/deco-common.js" />
+        <option value="$PROJECT_DIR$/Tdkyq/urls.py" />
+        <option value="$PROJECT_DIR$/templates/Category_list.html" />
+        <option value="$PROJECT_DIR$/templates/Article_list.html" />
+        <option value="$PROJECT_DIR$/templates/all_articles.html" />
+        <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/apps/message_form/urls.py" />
+        <option value="$PROJECT_DIR$/templates/usercenter-info.html" />
+        <option value="$PROJECT_DIR$/templates/Comment.html" />
+        <option value="$PROJECT_DIR$/apps/message_form/adminx.py" />
+        <option value="$PROJECT_DIR$/apps/message_form/login_simulation.py" />
+        <option value="$PROJECT_DIR$/apps/message_form/models.py" />
+        <option value="$PROJECT_DIR$/apps/message_form/views.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="65" />
+    <option name="y" value="-4" />
+    <option name="width" value="735" />
+    <option name="height" value="604" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Tdkyq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Tdkyq" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="Tdkyq" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="Tdkyq" />
+      </console-settings>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Tdkyq" />
+      <recent name="$PROJECT_DIR$/static/plugins" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/static/plugins/ckeditor" />
+      <recent name="$PROJECT_DIR$/templates" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/templates" />
+      <recent name="$PROJECT_DIR$/apps" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/DjangoUeditor/static" />
+      <recent name="$PROJECT_DIR$/static/images/add_article_img" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Django server.Tdkyq">
+    <configuration name="Comment.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Tdkyq/templates/Comment.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Tdkyq/static/ueditor/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="ueditor.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Tdkyq/DjangoUeditor/templates/ueditor.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="ueditor_old.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Tdkyq/DjangoUeditor/templates/ueditor_old.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="Tdkyq" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="Tdkyq.settings" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/.virtualenvs/Lyux/bin/python3.7" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="views" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Tdkyq" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/apps/message_form" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/apps/message_form/views.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Tdkyq" type="Python.DjangoServer" factoryName="Django server">
+      <module name="Tdkyq" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="Tdkyq.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Django server.Tdkyq" />
+      <item itemvalue="JavaScript Debug.Comment.html" />
+      <item itemvalue="JavaScript Debug.ueditor.html" />
+      <item itemvalue="JavaScript Debug.ueditor_old.html" />
+      <item itemvalue="JavaScript Debug.index.html (1)" />
+      <item itemvalue="Python.views" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html (1)" />
+        <item itemvalue="JavaScript Debug.ueditor_old.html" />
+        <item itemvalue="JavaScript Debug.ueditor.html" />
+        <item itemvalue="Python.views" />
+        <item itemvalue="JavaScript Debug.Comment.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e6fb6b96-ff69-41fb-8f49-1e22dcf9774a" name="Default Changelist" comment="" />
+      <created>1568516974287</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1568516974287</updated>
+      <workItem from="1568516985669" duration="1710000" />
+      <workItem from="1568521181952" duration="2021000" />
+      <workItem from="1568536252357" duration="3077000" />
+      <workItem from="1568539404951" duration="2737000" />
+      <workItem from="1568543173067" duration="6449000" />
+      <workItem from="1568624257740" duration="1188000" />
+      <workItem from="1568685018430" duration="220000" />
+      <workItem from="1568685309358" duration="4005000" />
+      <workItem from="1568689418823" duration="730000" />
+      <workItem from="1568693101642" duration="6011000" />
+      <workItem from="1568768620490" duration="2555000" />
+      <workItem from="1568775278484" duration="256000" />
+      <workItem from="1573185298011" duration="1357000" />
+      <workItem from="1573209037204" duration="1350000" />
+      <workItem from="1573210963555" duration="3686000" />
+      <workItem from="1573215196520" duration="272000" />
+      <workItem from="1573215515960" duration="184000" />
+      <workItem from="1573299450577" duration="1761000" />
+      <workItem from="1573369394696" duration="682000" />
+      <workItem from="1573371220173" duration="4299000" />
+      <workItem from="1573385047133" duration="2403000" />
+      <workItem from="1573446211203" duration="3795000" />
+      <workItem from="1573452448721" duration="747000" />
+      <workItem from="1573466404589" duration="2986000" />
+      <workItem from="1573736904075" duration="699000" />
+      <workItem from="1573818011289" duration="3327000" />
+      <workItem from="1573880243937" duration="926000" />
+      <workItem from="1573968541003" duration="902000" />
+      <workItem from="1573990003237" duration="5436000" />
+      <workItem from="1576057903249" duration="22000" />
+      <workItem from="1576216528760" duration="1441000" />
+      <workItem from="1576218028230" duration="1119000" />
+      <workItem from="1576219642705" duration="654000" />
+      <workItem from="1576220381727" duration="121000" />
+      <workItem from="1576220539861" duration="494000" />
+      <workItem from="1576221132922" duration="566000" />
+      <workItem from="1576221736028" duration="1564000" />
+      <workItem from="1576226179521" duration="755000" />
+      <workItem from="1576230388683" duration="1225000" />
+      <workItem from="1576302765408" duration="14349000" />
+      <workItem from="1576338119066" duration="4644000" />
+      <workItem from="1576343840495" duration="4551000" />
+      <workItem from="1576396429913" duration="1017000" />
+      <workItem from="1576397698050" duration="267000" />
+      <workItem from="1576398002599" duration="6382000" />
+      <workItem from="1576404591666" duration="6539000" />
+      <workItem from="1576490262408" duration="6619000" />
+      <workItem from="1576506886197" duration="6406000" />
+      <workItem from="1576513768784" duration="5548000" />
+      <workItem from="1576560280435" duration="11213000" />
+      <workItem from="1576573966517" duration="9488000" />
+      <workItem from="1576585484184" duration="14569000" />
+      <workItem from="1576600965670" duration="3689000" />
+      <workItem from="1576605300096" duration="559000" />
+      <workItem from="1576643764876" duration="14978000" />
+      <workItem from="1576658801086" duration="26992000" />
+      <workItem from="1576688732518" duration="2357000" />
+      <workItem from="1576693724463" duration="1478000" />
+      <workItem from="1576730465856" duration="3576000" />
+      <workItem from="1576735882267" duration="15352000" />
+      <workItem from="1576848633382" duration="23307000" />
+      <workItem from="1576903948237" duration="4641000" />
+      <workItem from="1576908688567" duration="18939000" />
+      <workItem from="1576928606720" duration="1779000" />
+      <workItem from="1576930579610" duration="2336000" />
+      <workItem from="1576933579452" duration="8872000" />
+      <workItem from="1576944834918" duration="1076000" />
+      <workItem from="1576946064478" duration="619000" />
+      <workItem from="1576985355964" duration="14902000" />
+      <workItem from="1577002161303" duration="15259000" />
+      <workItem from="1577021786970" duration="926000" />
+      <workItem from="1577025281280" duration="177000" />
+      <workItem from="1577025514989" duration="1956000" />
+      <workItem from="1577073838477" duration="11858000" />
+      <workItem from="1577123859798" duration="1627000" />
+      <workItem from="1577125657279" duration="263000" />
+      <workItem from="1577125965939" duration="29000" />
+      <workItem from="1577126032623" duration="446000" />
+      <workItem from="1577161265218" duration="9853000" />
+      <workItem from="1577188570804" duration="9490000" />
+      <workItem from="1577263661358" duration="6687000" />
+      <workItem from="1577270951201" duration="6916000" />
+      <workItem from="1577969828446" duration="6783000" />
+      <workItem from="1578031578742" duration="3182000" />
+      <workItem from="1578039128173" duration="556000" />
+      <workItem from="1578040319307" duration="7345000" />
+      <workItem from="1578070133622" duration="785000" />
+      <workItem from="1578098880550" duration="3180000" />
+      <workItem from="1578102465180" duration="2271000" />
+      <workItem from="1578110939074" duration="1445000" />
+      <workItem from="1578119452491" duration="765000" />
+      <workItem from="1578902217516" duration="451000" />
+      <workItem from="1578903458548" duration="284000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Test__Tdkyq - 2019.12.13 at 17h 44m 59s.xml">
+      <configuration name="Test: Tdkyq" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__ - 2019.12.13 at 17h 45m 39s.xml">
+      <configuration name="Test: " configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__static_images - 2019.12.16 at 22h 39m 56s.xml">
+      <configuration name="Test: static.images" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="403310000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21043864" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3292978" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4991671" weight="0.8358209" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.59079903" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32982087" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="manage.py@Tdkyq" order="10" sideWeight="0.49972236" weight="0.34668073" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50083286" side_tool="true" weight="0.41517386" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.312961" />
+      <window_info anchor="bottom" id="Python Console" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="R Graphics" order="4" weight="0.32981676" />
+      <window_info anchor="right" id="R Packages" order="5" weight="0.3292615" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32981676" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33425874" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3292978" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4991671" visible="true" weight="0.4130664" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39726028" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32982087" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="manage.py@Tdkyq" order="10" sideWeight="0.49972236" weight="0.34668073" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50083286" side_tool="true" weight="0.41517386" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.312961" />
+      <window_info anchor="bottom" id="Python Console" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="R Graphics" order="4" weight="0.32981676" />
+      <window_info anchor="right" id="R Packages" order="5" weight="0.3292615" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32981676" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="requirements.txt" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/apps/message_form/views.py</url>
+          <line>152</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/apps/message_form/views.py</url>
+          <line>153</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/apps/message_form/views.py</url>
+          <line>161</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/apps/message_form/views.py</url>
+          <line>166</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/apps/message_form/login_simulation.py</url>
+          <line>69</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/apps/message_form/login_simulation.py</url>
+          <line>97</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/apps/message_form/login_simulation.py</url>
+          <line>85</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/apps/message_form/login_simulation.py</url>
+          <line>94</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Python.DjangoServer">
+        <watch expression="name" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Tdkyq$sha1.coverage" NAME="sha1 Coverage Results" MODIFIED="1573446404572" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apps/login_simulation/migrations" />
+    <SUITE FILE_PATH="coverage/Tdkyq$settings.coverage" NAME="settings Coverage Results" MODIFIED="1568685714817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tdkyq" />
+    <SUITE FILE_PATH="coverage/Tdkyq$login.coverage" NAME="login Coverage Results" MODIFIED="1573213903689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apps/login_simulation/migrations" />
+    <SUITE FILE_PATH="coverage/Tdkyq$Test__.coverage" NAME="Test:  Coverage Results" MODIFIED="1576230338470" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Tdkyq$pwd.coverage" NAME="pwd Coverage Results" MODIFIED="1573737316911" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apps/login_simulation/migrations" />
+    <SUITE FILE_PATH="coverage/Tdkyq$urls.coverage" NAME="urls Coverage Results" MODIFIED="1568548175354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tdkyq" />
+    <SUITE FILE_PATH="coverage/Tdkyq$beangle.coverage" NAME="beangle Coverage Results" MODIFIED="1573450896281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apps/login_simulation/migrations" />
+    <SUITE FILE_PATH="coverage/Tdkyq$Test__static_images.coverage" NAME="Test: static.images Coverage Results" MODIFIED="1576507177337" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Tdkyq$views.coverage" NAME="views Coverage Results" MODIFIED="1576591768926" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apps/message_form" />
+    <SUITE FILE_PATH="coverage/Tdkyq$nkueamis.coverage" NAME="nkueamis Coverage Results" MODIFIED="1573300593045" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apps/login_simulation/migrations" />
+    <SUITE FILE_PATH="coverage/Tdkyq$login_sys.coverage" NAME="login_sys Coverage Results" MODIFIED="1576514213741" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apps/login_simulation/migrations" />
+    <SUITE FILE_PATH="coverage/Tdkyq$Test__Tdkyq.coverage" NAME="Test: Tdkyq Coverage Results" MODIFIED="1576230296624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/DjangoUeditor/adminx.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/plugins/ckeditor/plugins/image/dialogs/image.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="39" column="281" selection-start-line="39" selection-start-column="281" selection-end-line="39" selection-end-column="281" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/plugins/ckeditor/lang/af.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/plugins/ckeditor/ckeditor.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/plugins/ckeditor/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1015">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoUeditor/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="696">
+          <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoUeditor/templates/ueditor_old.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-191">
+          <folding>
+            <element signature="n#style#0;n#textarea#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoUeditor/templates/ueditor.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#style#0;n#script#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoUeditor/static/ueditor/ueditor.all.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10353">
+          <caret line="357" column="385" selection-start-line="357" selection-start-column="373" selection-end-line="357" selection-end-column="385" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoUeditor/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/plugins/ueditor/jsp/config.json" />
+    <entry file="file://$PROJECT_DIR$/static/plugins/ueditor/php/config.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoUeditor/安装和配置">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/Article_img/ueditor/images/timg_20191221173225_242.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/Article_img/ueditor/images/timg_20191221182019_507.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoUeditor/readme.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="90" column="14" lean-forward="true" selection-start-line="90" selection-start-column="14" selection-end-line="90" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/message_form/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/js2/deco-common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/default_big_14.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/img1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/img2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/slide_r.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/slide_l.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/Article_img/f3.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/Article_img/f6.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/Article_img/bg.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/Article_img/bg_1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Category_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67">
+          <caret line="89" column="94" selection-start-line="89" selection-start-column="94" selection-end-line="89" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Article_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="207" column="4" selection-start-line="207" selection-start-column="4" selection-end-line="207" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/message_form/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="90" column="30" lean-forward="true" selection-start-line="90" selection-start-column="30" selection-end-line="90" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tdkyq/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="34" column="4" lean-forward="true" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="77" />
+          <folding>
+            <element signature="e#629#666#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/all_articles.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6148">
+          <caret line="212" column="30" selection-start-line="212" selection-start-column="23" selection-end-line="212" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/usercenter-info.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5887">
+          <caret line="203" column="21" selection-start-line="203" selection-start-column="21" selection-end-line="203" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xadmin/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xadmin/layout.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xadmin/adminx.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/Lyux/lib/python3.7/site-packages/django/conf/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2881">
+          <caret line="44" column="6" selection-start-line="44" selection-start-column="6" selection-end-line="44" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xadmin/plugins/auth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+          <folding>
+            <element signature="e#15#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xadmin/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xadmin/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xadmin/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+            <element signature="e#743#1432#0" />
+            <element signature="e#1594#2375#0" />
+            <element signature="e#2421#2959#0" />
+            <element signature="e#3029#3583#0" />
+            <element signature="e#3651#4859#0" />
+            <element signature="e#4920#6595#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/Lyux/lib/python3.7/site-packages/django/views/generic/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="96" selection-start-line="96" selection-end-line="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/Lyux/lib/python3.7/site-packages/django/core/handlers/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2813">
+          <caret line="108" selection-start-line="108" selection-end-line="108" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/message_form/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1276">
+          <caret line="144" column="25" selection-start-line="144" selection-start-column="25" selection-end-line="144" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+            <element signature="e#1071#1714#0" />
+            <element signature="e#1750#3198#0" />
+            <element signature="e#3234#4101#0" />
+            <element signature="e#4135#4355#0" />
+            <element signature="e#4392#5017#0" />
+            <element signature="e#5049#6106#0" />
+            <element signature="e#6136#6254#0" />
+            <element signature="e#6283#7557#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/message_form/login_simulation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2581">
+          <caret line="97" selection-start-line="97" selection-end-line="97" />
+          <folding>
+            <element signature="e#44#59#0" expanded="true" />
+            <element signature="e#286#955#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/message_form/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/add_article.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2813">
+          <caret line="97" column="50" selection-start-line="97" selection-start-column="50" selection-end-line="97" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Comment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3306">
+          <caret line="114" column="35" selection-start-line="114" selection-start-column="35" selection-end-line="114" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/message_form/adminx.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tdkyq/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="77" selection-start-line="77" selection-end-line="77" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
